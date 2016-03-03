@@ -1,18 +1,18 @@
 import Hapi from 'hapi';
 import GraphQL from 'hapi-graphql';
-const Inert = require('inert');
-const Vision = require('vision');
-const HapiSwagger = require('hapi-swagger');
+import Inert from 'inert';
+import Vision from 'vision';
+import HapiSwagger from 'hapi-swagger';
 import {
 GraphQLSchema,
 GraphQLObjectType,
 GraphQLString
 } from 'graphql';
 
-const Joi = require('joi')
-var data = require('./data.json');
+import Joi from 'joi';
+import Pack from './package';
 
-const Pack = require('./package');
+var data = require('./data.json');
 
 // Define our user type, with two string fields; `id` and `name`
 var userType = new GraphQLObjectType({
