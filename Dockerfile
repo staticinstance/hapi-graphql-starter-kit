@@ -3,7 +3,7 @@ FROM node:argon
 RUN mkdir /app
 WORKDIR /app
 COPY . /app
-RUN npm install -g babel-cli babel-preset-es2015
+RUN npm install -g babel-cli
 RUN npm install
 
 EXPOSE 3000
