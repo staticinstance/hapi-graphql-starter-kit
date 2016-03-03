@@ -1,7 +1,6 @@
 import Hapi from 'hapi';
 import GraphQL from 'hapi-graphql';
 import {
-  graphql,
   GraphQLSchema,
   GraphQLObjectType,
   GraphQLString
