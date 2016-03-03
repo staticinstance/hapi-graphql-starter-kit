@@ -1,0 +1,16 @@
+{
+  "name": "hapi-graphql-starter-kit",
+  "version": "1.0.0",
+  "description": "A GraphQL API server using Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Bradley",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.4.18",
+    "hapi": "^13.0.0",
+    "hapi-graphql": "^0.4.0"
+  }
+}
